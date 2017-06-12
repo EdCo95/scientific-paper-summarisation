@@ -1,0 +1,2 @@
+# Models
+Contains the code to create the computation graphs for and train each summarisation core ranking model. All files should have a `graph()` function which can be called to give the outputs of the computation graph for easy use with the actual summarisers.
