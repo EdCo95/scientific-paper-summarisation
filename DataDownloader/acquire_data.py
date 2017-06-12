@@ -22,7 +22,7 @@ LOCATION_OF_PAPER_URLS_LIST = "DataDownloader/cspubsum_test_ids.txt"
 # ====> (2) : The Place to Store the Papers
 #       The directory in which to stored the downloaded papers, which will be in XML formet. The default assumes you are
 #       running the code from the main project folder.
-LOCATION_TO_STORE_XML_PAPERS = "DataDownloader/XML_Papers/"
+LOCATION_TO_STORE_XML_PAPERS = "Data/XML_Papers/"
 
 # ====> (3) : Directory of Existing Papers
 #       If you have any papers which are already downloaded in XML format, enter the directory here to combine them with
@@ -34,7 +34,7 @@ LOCATION_OF_EXISTING_XML_PAPERS = LOCATION_TO_STORE_XML_PAPERS
 # ====> (4) : The Place to Store the Parsed Papers
 #       The XML papers will be parsed into ".txt" format papers so that functions provided in useful_functions.py can
 #       parse them easily. This variable gives the location to store the parsed papers.
-LOCATION_TO_STORE_PARSED_PAPERS = "DataDownloader/Parsed_Papers/"
+LOCATION_TO_STORE_PARSED_PAPERS = "Data/Parsed_Papers/"
 
 # ====> (5) : An API Key
 #       You will need an API key for ScienceDirect in order to access the papers. To acquire one, you will need to visit
@@ -60,7 +60,8 @@ if not os.path.exists(LOCATION_TO_STORE_PARSED_PAPERS):
 try:
     assert(API_KEY is not "")
 except AssertionError:
-    exit('\033[91m You must provide an API key. You can obtain one from: https://dev.elsevier.com/user/login \033[0m')
+    print()
+    exit('\033[91m You must provide an API key. You can obtain one from: https://dev.elsevier.com/user/login \033[0m\n')
 
 # ===============================
 
