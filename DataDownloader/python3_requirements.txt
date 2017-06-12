@@ -1,0 +1,7 @@
+beautifulsoup4==4.6.0
+numpy==1.11.1
+protobuf==3.2.0
+six==1.10.0
+tensorflow==1.1.0
+virtualenv==15.1.0
+Werkzeug==0.12.1
