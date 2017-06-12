@@ -32,7 +32,7 @@ class AbstractNetPreprocessor(DataPreprocessor):
         """
 
         # The number of summary sentences to extract from the paper as training data
-        self.num_summary = 10
+        self.num_summary = 20
 
         # The number of papers to process and the loading section size which will be used to print a loading bar as
         # the papers are processed
