@@ -1,0 +1,15 @@
+Data
+Deprecated
+*.pyc
+.DS_Store
+.idea
+Word2Vec_Models
+pickled_dicts
+file_enumerator.py
+Parsed_Papers
+Test
+Test2
+Test3
+XML_Papers
+*.npy
+Trained_Models
