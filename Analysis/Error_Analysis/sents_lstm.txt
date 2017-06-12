@@ -1,0 +1,600 @@
+
+Sentence: 0
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a significant challenge is to create a study with a high sense of personal stake and motivation to deceive that still meets ethical protocols .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.875997
+
+Sentence: 1
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the c1 condition can be interpreted as the requirement that the coefficients in the first row parallel to the common edge are obtained by evaluating the linear function defined on the triangle opposite to each point .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.665332
+
+Sentence: 2
+====> FALSE POSITIVE <====
+----> SENTENCE:
+if any pixel in each qq neighborhood is classified to the character cluster , then the corresponding central pixel ( xci , yci ) is set to zero , ie , ibn ( xci , yci ) =0 .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.588983
+
+Sentence: 3
+====> FALSE POSITIVE <====
+----> SENTENCE:
+processing for synchronization begins at this step .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.730083
+
+Sentence: 4
+====> FALSE POSITIVE <====
+----> SENTENCE:
+fig4 shows a plughole created as a cut view .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.570426
+
+Sentence: 5
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a security mechanism is mandatory to protect vanets against attacks .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.879865
+
+Sentence: 6
+====> FALSE POSITIVE <====
+----> SENTENCE:
+thanks to our pipeline , environments like these can be faithfully reconstructed in a completely automatic way .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.838753
+
+Sentence: 7
+====> FALSE POSITIVE <====
+----> SENTENCE:
+these modeling and analysis tools ( stpa and cast ) are now being successfully used in most industries .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.870956
+
+Sentence: 8
+====> FALSE POSITIVE <====
+----> SENTENCE:
+quarantining is proposed to underlie the observation that 3d did not induce more sickness than 2d .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.618825
+
+Sentence: 9
+====> FALSE POSITIVE <====
+----> SENTENCE:
+we propose a general modular framework based on this definition .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.607678
+
+Sentence: 10
+====> FALSE POSITIVE <====
+----> SENTENCE:
+description of a damage evolution model for frp-concrete .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.717389
+
+Sentence: 11
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the pasw-19 statistics software ( spss , inc. ) was used for analysis .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.692445
+
+Sentence: 12
+====> FALSE POSITIVE <====
+----> SENTENCE:
+for perceived rating of exertion and subjective dependent variables , non-parametric statistical analyses were completed .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.876598
+
+Sentence: 13
+====> FALSE POSITIVE <====
+----> SENTENCE:
+interestingly , despite the fact that the subjects were wearing very uncomfortable heavy footwear , subtle differences in sensations linked to textile liners were perceived and identified .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.742007
+
+Sentence: 14
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in model iii , we included msp , md , age , gender , length of vocational education , and the specific job demand or social support variable .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.627024
+
+Sentence: 15
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the estimated performance at the end of the evaluation period , which we will use to rank document filtering systems by , we will refer to as time-aware evaluation metric .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.652172
+
+Sentence: 16
+====> FALSE POSITIVE <====
+----> SENTENCE:
+this general approach could contrast with specific activities at the workplace .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.769428
+
+Sentence: 17
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a real-time obs was proposed for the real-time removal of ballistocardiogram artifacts .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.864915
+
+Sentence: 18
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the accurate computation of contact tractions near the crack front requires a square-root singular variation of the penalty parameter near the crack front .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.598008
+
+Sentence: 19
+====> FALSE POSITIVE <====
+----> SENTENCE:
+when stratified by af classification , the analysis of persistent af patients did not show any significant difference in rpis with respect to postoperative outcome ( table 4 ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.854868
+
+Sentence: 20
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the total pixels are n. the average error of pixel on x axis and y axis are given by the following equations , respectively : ( 1 ) x=1ni=0n ( xi-x0i ) ( 2 ) y=1ni=0n ( yi-y0i ) the offset of each pixel is : ( 3 ) x=1ni=0n ( xi-x0i-x ) ( 4 ) y=1ni=0n ( yi-y0i-y ) thus , the fidelity of new generated character and the real one can be described as : ( 5 ) f=pt- ( x+y ) /2ptwhere pt is defined as the relative total pixels of character : ( 6 ) pt=p0/n2=
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.798339
+
+Sentence: 21
+====> FALSE POSITIVE <====
+----> SENTENCE:
+we propose a gold-standard built with the cooperation of a referent expert in the field , aiming to create a benchmark set methods for detecting and segmenting sperm cells .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.867817
+
+Sentence: 22
+====> FALSE POSITIVE <====
+----> SENTENCE:
+there were also cases of overfeeding of filler metal causing material wastage .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.835642
+
+Sentence: 23
+====> FALSE POSITIVE <====
+----> SENTENCE:
+mean-univariate garch var portfolio optimization : actual portfolio approach
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.864865
+
+Sentence: 24
+====> FALSE POSITIVE <====
+----> SENTENCE:
+this is a timely opportunity for the health informatics community .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.526055
+
+Sentence: 25
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in this sense , our gait speeds covered a wide range from walking to running .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.746856
+
+Sentence: 26
+====> FALSE POSITIVE <====
+----> SENTENCE:
+if the user could activate each of the three squares , the program showed another message asking if the calibration was complete .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.880641
+
+Sentence: 27
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in which , the index indicates status of sleep , cough , pant , and activity power scaled by the value of 1 ( occurrence ) , 0 ( none ) or 1 ( no entry ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.757701
+
+Sentence: 28
+====> FALSE POSITIVE <====
+----> SENTENCE:
+no significant interaction effect ( p=0.52 ) and typing ability main effect ( p=0.41 ) were found in the accuracy data ; however , a significant effect of keyboard was observed ( p=0.049 ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.799498
+
+Sentence: 29
+====> FALSE POSITIVE <====
+----> SENTENCE:
+assume that we have the following click path extracted from our turkish educational search engine log : alarna gre genler ( 4.5 ) gen izimi ( 23.5 ) gen eitleri ( 5.0 ) matematik noktalarn birbirine gre uyumu ( 3.5 ) paralel iki doru ( triangles by angles ( 4.5 ) drawing triangle ( 23.5 ) types of triangles ( 5.0 ) math harmony of points ( 3.5 ) two parallel lines ) here path frequency values in the array format are [ 4.5 , 23.5 , 5.0 , 3.5 ] .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.669477
+
+Sentence: 30
+====> FALSE POSITIVE <====
+----> SENTENCE:
+significant contributions came as a result of the advisor 's influence and her desire to implement the committee , and the superintendent 's decision to empower the ic to develop new policies at the hospital .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.85599
+
+Sentence: 31
+====> FALSE POSITIVE <====
+----> SENTENCE:
+alternatively , such a lattice may be viewed as inducing a tessellation of space into identical cells without n-dimensional overlap.22a common convention is to define the cells to be half-open sets so that they do not overlap on facets , but nevertheless cover .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.733942
+
+Sentence: 32
+====> FALSE POSITIVE <====
+----> SENTENCE:
+motion between the first and the last frame of wi is considered .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.787859
+
+Sentence: 33
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the second is based on an adaptive view : rules are resources for operators , but they are not sufficient to cover all work situations .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.828764
+
+Sentence: 34
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the experimental results show that the performance of the proposed method is superior to several state-of-the-art methods .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.858844
+
+Sentence: 35
+====> FALSE POSITIVE <====
+----> SENTENCE:
+although according to the world health organization standard users of movielens system can be divided into three intervals according to their ages ( 1844 ) , ie teenage ( < 18 ) , youth ( 1835 ) , middle aged and elderly people ( > 35 ) , we divided users into two groups with the view of economic benefit to test the generality of pp module .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.677177
+
+Sentence: 36
+====> FALSE POSITIVE <====
+----> SENTENCE:
+c48.4 concrete was used to generate the material parameters for the mat 145 and mat 159 .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.844172
+
+Sentence: 37
+====> FALSE POSITIVE <====
+----> SENTENCE:
+band factors reflect the properties or requirements of a band or the pu using the band .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.536737
+
+Sentence: 38
+====> FALSE POSITIVE <====
+----> SENTENCE:
+prescription with antimicrobial injection was defined as injectable medications with the first three codes of j01 ( antibacterials for systemic use ) , j02 ( antimycotics for systemic use ) , j04 ( antimycobacterials ) and j05 ( antivirals for systemic use ) according to the anatomical therapeutic chemical ( atc ) classification system [ vers .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.640864
+
+Sentence: 39
+====> FALSE POSITIVE <====
+----> SENTENCE:
+then there would be no discontinuity in the resulting subdivision between the two cubes .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.583424
+
+Sentence: 40
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in this context , the following definitions are useful.definition10preset ( postset ) the preset ( postset ) of a node n in model corresponds to the set of nodes in that can be executed directly before ( after ) n. formally : preset ( n , ) = { n|seq ( n , n ) } postset ( n , ) = { n|seq ( n , n ) } consider fig 1 .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.879191
+
+Sentence: 41
+====> FALSE POSITIVE <====
+----> SENTENCE:
+over time , users increase informational use and decrease conversational usage .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.549027
+
+Sentence: 42
+====> FALSE POSITIVE <====
+----> SENTENCE:
+as a result , the similar value propositions in all three major mobile application ecosystems support the existence of multiple platforms .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.734992
+
+Sentence: 43
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the confusion matrix summarizes these classification performance measures ( see table 2 ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.85058
+
+Sentence: 44
+====> FALSE POSITIVE <====
+----> SENTENCE:
+thus , given that the stiffness of graphene reinforcement is extremely higher than epoxy , the use of inverse rom is avoided .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.510916
+
+Sentence: 45
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the semilandmarks will be used to characterize thoracic morphology by age and sex .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.83371
+
+Sentence: 46
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the scalier converts the 720p or analog input image into the 25601080 resolution .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.631206
+
+Sentence: 47
+====> FALSE POSITIVE <====
+----> SENTENCE:
+generates user-friendly web report and additional bed files for igv visualization .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.746192
+
+Sentence: 48
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in a chain crf model , given an observation sequence x , the probability of a label sequence y has the form : ( 3 ) pyxexpt=1ti=1nifytxti+t=1tj=1mjgytyt1jwhere t , n , and m are the numbers of the nodes , feature values , and states , respectively ; f ( yt , xti ) is the unary potential function to evaluate the interactions between features and labels ; and g ( yt , xt1j ) is the binary potential function considering the dependencies among neighborhood labels .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.873018
+
+Sentence: 49
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a useful implementation of cascading should be robust .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.876296
+
+Sentence: 50
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the main contribution of this paper is an attempt to automate webpage coloring through a data driven optimization .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.880385
+
+Sentence: 51
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+non-dominant limb muscle activity was lower with bare-hand or powered-tool fitting .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.762596
+
+Sentence: 52
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+we give three rules of refinement to guarantee the completeness , and a basis is constructed .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.749561
+
+Sentence: 53
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+four main factors that can increase the risk of injury and on which decisions about risk and good practice may be made are : composition of the orders ; characteristics of the delivery vehicle/truck ; the handling method mainly applied ; and , the road/access conditions .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.645285
+
+Sentence: 54
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+( ii ) an automated image quality-based score level fusion scheme was also designed and developed .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.642134
+
+Sentence: 55
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in fig 4b , kymographs show the profile of the cell and nuclear outline as well as the evolution of nuclear shape and area during this process .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.858752
+
+Sentence: 56
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+tunnel oxides of niobium/aluminum-oxide/niobium tunnel junctions were formed by natural oxidation of the surface of the aluminum film with pure oxygen atmosphere in oxidization chamber .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.871313
+
+Sentence: 57
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+while medium-term scales range from one month to a year and short-term applications deal with hours and days , snapshot models consider a single system configuration for operation planning .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.766407
+
+Sentence: 58
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+nonlinear analysis of rr and qt series reveals the difference between the effects of wine and the control drink .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.771341
+
+Sentence: 59
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+we propose a novel multiple emotional tagging method based on multi-expressions .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.824234
+
+Sentence: 60
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+direct nanopatterning of titanium using nanopatterned diamond based stamps .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.578298
+
+Sentence: 61
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+if a random distribution is chosen , the term poisson voronoi tessellation is used .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.880445
+
+Sentence: 62
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+it was also noted that economic status played a positive role towards acceptance ; older adults with good economic status were more likely to accept to use smartphones .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.739602
+
+Sentence: 63
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the optimization of the stated inverse problem provides the machinery to obtain a mathematical solution .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.820421
+
+Sentence: 64
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the harmony memory ( hm ) is a matrix that stores solutions generated by the hs algorithm .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.541849
+
+Sentence: 65
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+evolution through generations .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.87855
+
+Sentence: 66
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+this maximal time difference is also well below the 5 7s that the reference postures were held .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.54091
+
+Sentence: 67
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+theorem4.3the global iterative application of the lepp-bisection algorithm increases the proportion of region i and vi triangles in the mesh , approaching 1 as the number of iterations increases .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.638102
+
+Sentence: 68
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+spikes are represented by short network packets ( 40 bits ) using address-event representation ( aer ) , a format widely used in neural network models [ 1416 ] .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.716085
+
+Sentence: 69
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+moreover , when comparing locations , the area required to fulfill a certain yearly demand and the installed capacity can be minimized .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.879633
+
+Sentence: 70
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+section 2.2 explains in detail the implementation of b-spline snake models and the working of the new scheme .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.575458
+
+Sentence: 71
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+) : two qualitative parameters were used .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.869964
+
+Sentence: 72
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the general objective of this paper is to propose and validate a simple method for the detection of ischemia based on an isoelectric energy function through accurate pre-processing and detection of basic ecg characteristic points .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.694436
+
+Sentence: 73
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+improvement with respect to most commonly used approaches .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.708087
+
+Sentence: 74
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+novel user-centric self-adaptive system .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.870748
+
+Sentence: 75
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the curve defined by taking s=1 exhibits negative curvature and a tight loop , so it must be discounted .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.788067
+
+Sentence: 76
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the operator can be applied to a variety of permutation problems .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.842344
+
+Sentence: 77
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+scores given by dermatologists are considered as ground truth .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.878554
+
+Sentence: 78
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+we briefly recall the discretization of the laplacebeltrami operator , the classification of the critical points for piecewise scalar functions defined on triangulated surfaces , and the main properties of the harmonic functions .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.8677
+
+Sentence: 79
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the proposed algorithm has the ability to count multiplicities of roots .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.880074
+
+Sentence: 80
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the above examples demonstrate that motion analysis methods such as face tracking are critical to nonverbal communication computing .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.877899
+
+Sentence: 81
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in order to assess the properties of the novel matching strategies , different experiments reported in section3 were carried out , both on planar and non-planar scenes .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.880736
+
+Sentence: 82
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+as we showed in experiments , the main contribution of proposed method is the increase of the item ordering quality and of the precision of recommendation on very top-n items .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.582689
+
+Sentence: 83
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+mar is the smallest for grating of white and black .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.636909
+
+Sentence: 84
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+it only considers the training loss while svm gives an explicit margin in the optimization problem in eq ( 1 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.860138
+
+Sentence: 85
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+likert scale correlations were different among cars and between age groups .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.513127
+
+Sentence: 86
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in vogt etal 's method , the hr thermal component can be estimated during a 10-min seated rest pause immediately following a work period ( fig1 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.861701
+
+Sentence: 87
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+briefly , the gap nanowires were heated up to 110c in an oven for 30min .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.794268
+
+Sentence: 88
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+it includes manipulative mission , operational reach and operational strength indices .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.627804
+
+Sentence: 89
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+there are three groups of nine rods each ( with diameters : 15 , 9 , 8 , 7 , 6 , 5 , 4 , 3 , and 2mm ) in the outer ring varying successively in contrast levels : 1 % , 0.5 % , and 0.3 % , and three groups of four short cylindrical objects ( diameters 9 , 7 , 5 , and 3mm ) in the inner ring varying in length ( 3 , 5 , and 7mm ) with fixed contrast ( 1 % ) for partial effects presentation ( not relevant to
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.873669
+
+Sentence: 90
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+this result shows that the proposed method outperforms the dynamic texture method in terms of both accuracy and complexity .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.665738
+
+Sentence: 91
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in addition , high level of repetitiveness should be noted .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.508728
+
+Sentence: 92
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the hand held olive harvesters have a low weight ( from 2 to 15kg , the electrics are the lightest ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.595267
+
+Sentence: 93
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+integration of multi-feature fusion and dictionary learning for face recognition
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.500423
+
+Sentence: 94
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+we concur that both adjacent and non-adjacent pairs of concepts should be taken into account during the query expansion exercise .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.549114
+
+Sentence: 95
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+meta-parameters in these modules were estimated either for single modules or for module combinations during the parameter estimation procedure .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.844225
+
+Sentence: 96
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+five categories of data analysis were defined upfront ( table2 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.70732
+
+Sentence: 97
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+for each ( wi ) i=1drd with i=1dwi=1 and pm there exist ( p ) ( p ) > 0 , such that for all ( xi ) i=1db ( p ) ( p ) , there exists a unique xb ( p ) such thati=1dwig ( x , xi ) =0txm .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.863309
+
+Sentence: 98
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+it takes more iterations , but higher accuracy is expected .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.85651
+
+Sentence: 99
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+table 3 shows the average execution time for queries by its data type .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.529441

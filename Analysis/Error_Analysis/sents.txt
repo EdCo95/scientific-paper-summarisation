@@ -1,0 +1,700 @@
+
+Sentence: 0
+====> FALSE POSITIVE <====
+----> SENTENCE:
+we use 3-refined graphs in all the examples presented in this paper .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.857309
+----> FEATURES: (0.23076923076923084, 3.0167132032971971, 5.5573239376982633, 0, 0, 0, 13, 6)
+
+Sentence: 1
+====> FALSE POSITIVE <====
+----> SENTENCE:
+although accurate tumour parameters were estimated for 2d and 3d breasts models , inverse problem algorithms are time-consuming and can hardly be used in practice .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.86488
+----> FEATURES: (0.1967741935483871, 45.210477632828997, 5.3845951898875946, 0, 1, 0, 26, 2)
+
+Sentence: 2
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the healing of such injures represents a complex regenerative process initiating in response to fracture or to scaffold implantation .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.942701
+----> FEATURES: (0.0, 25.908856500360745, 5.3535167297469313, 2, 0, 0, 20, 2)
+
+Sentence: 3
+====> FALSE POSITIVE <====
+----> SENTENCE:
+however , some issues still exist in current design methods .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.533881
+----> FEATURES: (0.0, 10.732809138746754, 5.0347250091420657, 1, 1, 0, 11, 2)
+
+Sentence: 4
+====> FALSE POSITIVE <====
+----> SENTENCE:
+we use supervised learning over collected pois from yahoo !
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.572502
+----> FEATURES: (0.05062240663900415, 111.37271266859184, 4.3817321810098298, 1, 1, 0, 10, 6)
+
+Sentence: 5
+====> FALSE POSITIVE <====
+----> SENTENCE:
+data indicates users will expend a lower mental workload to operate the prototype .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.762563
+----> FEATURES: (0.28504672897196265, 33.006587821903601, 4.7660473861588581, 0, 0, 0, 14, 5)
+
+Sentence: 6
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the basic idea behind the definition of adjacency factor is that if a pair of components is very similar to each others adjacent components , they are more likely to appear next to each other , and hence the corresponding factor should have a high value .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.765015
+----> FEATURES: (0.20689655172413793, 24.756869949006589, 5.5598750201852551, 2, 4, 0, 47, 6)
+
+Sentence: 7
+====> FALSE POSITIVE <====
+----> SENTENCE:
+as in the case of b-splines , similar arguments apply in the non-uniform setting as well .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.827551
+----> FEATURES: (0.27473352349497066, 1.2363406059337889, 5.4598264849996996, 0, 0, 0, 17, 2)
+
+Sentence: 8
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a linear approximation provided approximately a unit negative slope .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.508174
+----> FEATURES: (0.13062098501070665, 3.0041148206211017, 5.8979671336215977, 0, 0, 0, 10, 2)
+
+Sentence: 9
+====> FALSE POSITIVE <====
+----> SENTENCE:
+data indicates users will expend a lower mental workload to operate the prototype .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.762563
+----> FEATURES: (0.28504672897196265, 33.006587821903601, 4.7660473861588581, 0, 0, 0, 14, 5)
+
+Sentence: 10
+====> FALSE POSITIVE <====
+----> SENTENCE:
+likewise , many non-systematic rateless erasure codes have been proposed for short messages transmission ( cf .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.992495
+----> FEATURES: (0.3405443126308444, 26.889705805903681, 4.321130683544343, 5, 5, 0, 17, 2)
+
+Sentence: 11
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a recent trend in visual saliency estimation is to pose saliency estimation as a supervised learning problem [ 3842 ] .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.61319
+----> FEATURES: (0.19047619047619047, 38.256609717397879, 6.8299596617126221, 3, 0, 1, 21, 5)
+
+Sentence: 12
+====> FALSE POSITIVE <====
+----> SENTENCE:
+vlad based encoding the corresponding results are shown in table5 .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.817146
+----> FEATURES: (0.21504112808460632, 25.60921516278837, 4.5461122364555733, 0, 0, 0, 11, 3)
+
+Sentence: 13
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the most common complication among infants that are born prematurely is respiratory distress syndrome ( rds ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.952076
+----> FEATURES: (0.4066666666666666, 33.387619785046311, 5.2194482902173487, 4, 1, 0, 18, 2)
+
+Sentence: 14
+====> FALSE POSITIVE <====
+----> SENTENCE:
+parametric images were also obtained both with and without gamma fitting preprocessing .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.727267
+----> FEATURES: (0.33851276359600446, 25.538563095138084, 4.2038399330294549, 0, 0, 0, 13, 2)
+
+Sentence: 15
+====> FALSE POSITIVE <====
+----> SENTENCE:
+exploiting temporal stability and low-rank structure for motion capture data refinement
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.956871
+----> FEATURES: (0.2501708817498291, 36.92282341992123, 4.3946852478020775, 6, 9, 0, 11, 6)
+
+Sentence: 16
+====> FALSE POSITIVE <====
+----> SENTENCE:
+mental workload ecg emg nasa-tlx traffic control center
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.756655
+----> FEATURES: (0.35966981132075476, 78.058122436509379, 3.7872556959185051, 8, 3, 0, 8, 6)
+
+Sentence: 17
+====> FALSE POSITIVE <====
+----> SENTENCE:
+if changes are made to the tilt , it is recommended that the angle of the handles be adjusted accordingly .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.85384
+----> FEATURES: (0.20748299319727892, 16.887231139346493, 5.5605456389103205, 0, 0, 0, 21, 3)
+
+Sentence: 18
+====> FALSE POSITIVE <====
+----> SENTENCE:
+thus , we have to show that n divides both , pp and qq .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.798516
+----> FEATURES: (0.0, 12.806514414034808, 5.3391017866270731, 0, 0, 0, 15, 2)
+
+Sentence: 19
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in fact , google trace includes 500 instances of task-event traces related to vms and each one has hundreds of thousands of demand records .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.633846
+----> FEATURES: (0.1766835626357712, 27.008565119754831, 5.3268668455388077, 0, 0, 1, 25, 3)
+
+Sentence: 20
+====> FALSE POSITIVE <====
+----> SENTENCE:
+as the vor approach is a non-precision approach , its precision requirement was not as tight as it was for the ils segment .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.697672
+----> FEATURES: (0.19182389937106917, 25.126736805767614, 5.4009864486939714, 0, 0, 0, 24, 6)
+
+Sentence: 21
+====> FALSE POSITIVE <====
+----> SENTENCE:
+on the other hand , participants obtained only moderate comprehension scores for these four pictorials .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.986458
+----> FEATURES: (0.2772727272727273, 64.987423171704094, 4.140337992515903, 0, 2, 0, 16, 3)
+
+Sentence: 22
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in high-dimensional classification data , however , the adaptive elastic net faces practical problems where a maximum likelihood estimate ( mle ) , which is usually proposed as an initial weight , is simply infeasible , and , hence , the adaptive elastic net is no longer applicable .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.628502
+----> FEATURES: (0.34804108025865343, 10.110548695339743, 5.7207274467618179, 7, 7, 0, 49, 2)
+
+Sentence: 23
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the first few sections focus on torsion without pre-stress .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.939199
+----> FEATURES: (0.2341650671785029, 29.490915184709042, 4.8766333950598906, 0, 1, 0, 10, 2)
+
+Sentence: 24
+====> FALSE POSITIVE <====
+----> SENTENCE:
+at a given moment , bob adds the voice feature to better discuss a specific issue , which is based on webrtc .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.642252
+----> FEATURES: (0.21198957428323195, 15.814521244344553, 5.9310892348189306, 1, 1, 0, 23, 6)
+
+Sentence: 25
+====> FALSE POSITIVE <====
+----> SENTENCE:
+furthermore , they estimate image properties related to first- and second-order statistics .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.695185
+----> FEATURES: (0.18304576144036008, 8.7226741550307096, 5.7800873233220535, 0, 0, 0, 13, 2)
+
+Sentence: 26
+====> FALSE POSITIVE <====
+----> SENTENCE:
+furthermore , the mirror principle of the half-qwerty keyboard ( matias etal , 1993 ) as well as the encoding rules based on orthogonal stimulus-response compatibility are followed .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.585297
+----> FEATURES: (0.3268586738111185, 26.074608161668738, 5.3233495930388832, 1, 0, 1, 29, 2)
+
+Sentence: 27
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the pwd of a subject were measured with a standardized method ; the task recording and analysis on computer ( palmtrac ) .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.985617
+----> FEATURES: (0.33348519362186785, 58.678660312759327, 4.8714989972702174, 0, 0, 0, 23, 6)
+
+Sentence: 28
+====> FALSE POSITIVE <====
+----> SENTENCE:
+potamos is a client server based application that was developed on the open source web 2.0-application framework ruby on rails ( ror ) [ 1820 ] .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.745137
+----> FEATURES: (0.34677002583979327, 10.316602588265587, 4.8607774888115811, 3, 1, 1, 27, 2)
+
+Sentence: 29
+====> FALSE POSITIVE <====
+----> SENTENCE:
+however , this method also endures some expensive computations like other retraction based motion planners .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.691337
+----> FEATURES: (0.27232142857142855, 54.694537416143682, 4.8901129245813069, 1, 1, 0, 16, 2)
+
+Sentence: 30
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the vta modified stl file was also able to achieve less gd & t errors for virtually manufactured parts as compared to the unmodified stl file .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.947219
+----> FEATURES: (0.4218136099324218, 105.12466336990468, 4.5733498663437198, 3, 2, 0, 27, 6)
+
+Sentence: 31
+====> FALSE POSITIVE <====
+----> SENTENCE:
+an arbitrary slice is also possible by interpolating the grid values of the scalar value to the slice .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.531646
+----> FEATURES: (0.22932330827067668, 6.2258607648676936, 6.8860837701213207, 0, 0, 0, 19, 2)
+
+Sentence: 32
+====> FALSE POSITIVE <====
+----> SENTENCE:
+deep learning hashing multimedia retrieval
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.524775
+----> FEATURES: (0.3609467455621302, 96.75172946320518, 3.7965871142668153, 4, 2, 0, 5, 6)
+
+Sentence: 33
+====> FALSE POSITIVE <====
+----> SENTENCE:
+fig 8 shows rthjc as a function of number of cycles .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.872025
+----> FEATURES: (0.2703900709219858, 3.4075050145237, 5.0380763792153305, 1, 0, 1, 12, 2)
+
+Sentence: 34
+====> FALSE POSITIVE <====
+----> SENTENCE:
+if these two conditions are met , a new r-wave is detected .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.559563
+----> FEATURES: (0.19349722442505948, 21.41517123326916, 4.5533520646669308, 0, 0, 0, 13, 2)
+
+Sentence: 35
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the results in fig 14 demonstrate that when the number of of switches is 5 and the number of flow entries is 10,000,000 , the original algorithm running time is about 1000ms and the improved algorithm running time is about 200ms .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.894295
+----> FEATURES: (0.36592681463707255, 43.125659102912266, 5.4194234747885899, 0, 0, 2, 42, 2)
+
+Sentence: 36
+====> FALSE POSITIVE <====
+----> SENTENCE:
+the goal of the current study is to investigate whether the structure under which searchers complete their tasks can affect accuracy .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.981707
+----> FEATURES: (0.2802450229709035, 7.6895022698637376, 5.4483412727456448, 0, 2, 0, 22, 2)
+
+Sentence: 37
+====> FALSE POSITIVE <====
+----> SENTENCE:
+for the citing articles , what functions does hbple serve ?
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.590064
+----> FEATURES: (0.2349165596919127, 192.62115594827574, 3.8054858037877, 0, 0, 0, 11, 2)
+
+Sentence: 38
+====> FALSE POSITIVE <====
+----> SENTENCE:
+we are able to account for this difference in terms of the difference between the periodic motion caused by the contrast medium spreading through blood vessels in the vessel region and the motion caused by x-ray noise alone in the background region .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.886098
+----> FEATURES: (0.3679814385150812, 22.728760833100733, 6.1144729615927647, 2, 4, 0, 43, 6)
+
+Sentence: 39
+====> FALSE POSITIVE <====
+----> SENTENCE:
+in addition , the design feature of the compared garments was totally different .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.946624
+----> FEATURES: (0.3674698795180723, 8.4899248651538333, 4.9427290614712689, 0, 0, 0, 14, 3)
+
+Sentence: 40
+====> FALSE POSITIVE <====
+----> SENTENCE:
+finally , preoperative and postoperative facial 3d point cloud data of 48 patients were collected .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.8875
+----> FEATURES: (0.305, 36.452260251371847, 4.2168993019099341, 0, 1, 1, 16, 2)
+
+Sentence: 41
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a set of all possible ( potential ) physical and physiological variables that affect the human physiological system was identified through a review of the scientific literature .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.72498
+----> FEATURES: (0.25523012552301255, 6.3407726391162038, 5.9510197806329073, 1, 1, 0, 28, 4)
+
+Sentence: 42
+====> FALSE POSITIVE <====
+----> SENTENCE:
+all of the included subjects had to respond to a medical questionnaire , undergo measurements of tympanic temperature , pulse and systolic and diastolic bp before fot and after each of the four exercises .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.784446
+----> FEATURES: (0.24074987666502218, 47.165981244272245, 4.5722123006732458, 0, 0, 0, 35, 2)
+
+Sentence: 43
+====> FALSE POSITIVE <====
+----> SENTENCE:
+social influences that may sway sns users in choosing to engage in virtual endorsement are reviewed .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.825436
+----> FEATURES: (0.13132400430570507, 34.753691528666295, 5.1069699099019532, 3, 0, 0, 17, 6)
+
+Sentence: 44
+====> FALSE POSITIVE <====
+----> SENTENCE:
+a pps is worn by pilots to protect them from both high altitude hypoxia and hyperventilation .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.572227
+----> FEATURES: (0.19661563255439163, 13.874453233829204, 6.2207318402115686, 0, 0, 0, 17, 2)
+
+Sentence: 45
+====> FALSE POSITIVE <====
+----> SENTENCE:
+one has to add support for possible two-contact with the conical shanks , extending eqs .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.833942
+----> FEATURES: (0.22426470588235292, 56.765569698320654, 5.367211530040044, 0, 0, 0, 16, 6)
+
+Sentence: 46
+====> FALSE POSITIVE <====
+----> SENTENCE:
+auto-focusing methods have been well studied in recent years , especially in single camera area .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.510954
+----> FEATURES: (0.1808300395256917, 42.495796796051508, 4.991042075176213, 1, 1, 0, 16, 6)
+
+Sentence: 47
+====> FALSE POSITIVE <====
+----> SENTENCE:
+thus , one can induce that the m parallel paths between two servers can be realized as mk=n weak parallel paths ; hence , theorem 6 is proven .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.768614
+----> FEATURES: (0.18778860954335555, 61.26146530193126, 5.0009662709729508, 0, 1, 1, 29, 6)
+
+Sentence: 48
+====> FALSE POSITIVE <====
+----> SENTENCE:
+this could be guaranteed by choosing a refinement strategy that always generates a thin stripe connecting the refined domain to the boundary .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.686372
+----> FEATURES: (0.14532459797498512, 13.22949398485232, 5.5741378534843262, 0, 1, 0, 23, 2)
+
+Sentence: 49
+====> FALSE POSITIVE <====
+----> SENTENCE:
+binary decisions are obtained with this approach .
+----> PREDICTED: 1 ACTUAL: 0 WITH CONFIDENCE: 0.718368
+----> FEATURES: (0.21785714285714283, 11.810603269316235, 5.2547605066036249, 0, 0, 0, 8, 2)
+
+Sentence: 50
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+let pk be the cpt p value computed from the hybrid permutation test on stratum k , and define sp=k=1klog ( pk ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.550532
+----> FEATURES: (0.1930379746835443, 48.9861533042601, 6.0372129355399391, 3, 0, 0, 24, 2)
+
+Sentence: 51
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+( 3 ) the regions predicted by the model to have high p coincide with locations commonly found where dai due to blunt-impact and rapid acceleration took place .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.634367
+----> FEATURES: (0.7375314861460958, 13.690753172675565, 4.8743937347257065, 1, 0, 1, 29, 5)
+
+Sentence: 52
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+a common technique in signal compression is by cropping high frequencies of an input signal .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.75907
+----> FEATURES: (0.21785714285714283, 4.9351560587845995, 6.371022908416907, 0, 0, 0, 16, 4)
+
+Sentence: 53
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+from the definition of a de bruijn graph , each node represents a length-n subsequence , and a hamiltonian cycle of the graph corresponds to a cyclic sequence that contains all the subsequences , enumerated by sliding the subsequence window by one character in the sequence .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.73938
+----> FEATURES: (0.2703682810863083, 55.511833844715049, 5.5938195667753652, 4, 0, 0, 47, 6)
+
+Sentence: 54
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+note that , from ( 2 ) , e2i ( r , q ) =e2b ( r , q ) +1/2 .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.725934
+----> FEATURES: (0.4203675344563553, 103.6849839369097, 4.9982693029768033, 0, 4, 1, 22, 2)
+
+Sentence: 55
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+maintained roadways were associated with substantially lower wbv amplitudes .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.646636
+----> FEATURES: (0.9, 27.389529922164161, 4.1400212611259208, 0, 0, 0, 10, 5)
+
+Sentence: 56
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+average monthly growth rates in network performance were generally higher than median growth rates .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.901547
+----> FEATURES: (0.16163222045574985, 26.393503436471246, 6.3040415598529727, 0, 0, 0, 15, 6)
+
+Sentence: 57
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+however , segmentation could not be avoided in this study .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.967325
+----> FEATURES: (0.22867853795688847, 6.3207297876243169, 5.0408818539317544, 0, 0, 0, 11, 3)
+
+Sentence: 58
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+however , computational complexity limits their application .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.969225
+----> FEATURES: (0.15721649484536082, 3.2690905010689306, 5.3716455251352127, 0, 0, 0, 8, 6)
+
+Sentence: 59
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+based upon many experiments , we define edge functions that receive input from the spacing values at the endpoints , from the length of the edge and from a parameter that controls the density of nodes in the mesh .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.636127
+----> FEATURES: (0.2723214285714286, 33.509040224576232, 5.0982024660018226, 1, 0, 0, 40, 2)
+
+Sentence: 60
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+ideally , this value should be twice the average number of dependents in nearby tree nodes .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.568282
+----> FEATURES: (0.24696356275303644, 19.708386403602635, 4.5492638530921603, 0, 1, 0, 17, 6)
+
+Sentence: 61
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the auc values with 95 % ci were 0.9783 ( 0.95690.9997 ) for svm , 0.9757 ( 0.95430.9970 ) for sgb and 0.8953 ( 0.85100.9396 ) for plr .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.751377
+----> FEATURES: (0.6560284926149657, 27.743733949098441, 4.5632008378949092, 0, 0, 4, 29, 3)
+
+Sentence: 62
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+initially , the sum of the fitness factors for all the tree nodes reachable from the sink is computed using eq ( 1 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.552255
+----> FEATURES: (0.2427515633882888, 13.135482512951045, 5.0334347155452752, 0, 1, 1, 25, 6)
+
+Sentence: 63
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+so , this fe exhibits no numerical pathology [ 35 ] .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.98714
+----> FEATURES: (0.1502463054187192, 5.0356768296144327, 5.1775831761746005, 0, 0, 1, 12, 2)
+
+Sentence: 64
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+with this architecture , very-large-port-count optical cross connects ( oxc ) can be achieved [ 23,3143 ] .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.903076
+----> FEATURES: (0.2946859903381642, 9.0972723279951477, 5.0331725328205872, 1, 1, 0, 18, 2)
+
+Sentence: 65
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in addition , transportation costs are represented by exact piecewise linear functions , as shown in fig 6 .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.590688
+----> FEATURES: (0.2661818181818182, 37.019889605979174, 4.346533929577407, 1, 0, 1, 19, 2)
+
+Sentence: 66
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+there are a few approaches [ 20,21,22 ] that perform ppr by carrying stereo matching and 3d plane fitting iteratively .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.892896
+----> FEATURES: (0.19439133205863604, 30.113089580362654, 4.5949229038344859, 0, 0, 0, 21, 6)
+
+Sentence: 67
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in order to explain the interfacial particles and the seemingly anomalous increase in shear strength , metallurgical cross-sections were prepared and characterised via optical microscopy , fib ion channelling and nanoindentation .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.64918
+----> FEATURES: (0.24078947368421053, 19.055634847786902, 4.9879003029963638, 0, 0, 0, 32, 3)
+
+Sentence: 68
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+analysis was done by means of the spss statistics 20.0 software .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.713525
+----> FEATURES: (0.20962199312714777, 2.1592808630270017, 5.9994198879986644, 0, 0, 1, 12, 2)
+
+Sentence: 69
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+as can be observed from table 4 , the mean agreement between any two clinicians varies between 80.3 % and 84.3 % .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.592293
+----> FEATURES: (0.40370615486432826, 28.982748934059867, 5.1723957002628653, 0, 0, 3, 23, 6)
+
+Sentence: 70
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+using k1 , do bitwise xor operation to each row of ssop based on the following expression.i1 ( 2i1 , j ) =ssop ( 2i1 , j ) k1 ( j ) , i1 ( 2i , j ) =ssop ( 2i , j ) rot180 ( kc ( j ) ) where denotes bitwise xor operation and rot 180 ( k1 represents the flipping of k1 from left to right .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.999985
+----> FEATURES: (0.0, 11.019743590268824, 11.75959789000521, 0, 0, 1, 72, 6)
+
+Sentence: 71
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+this process can be performed using batch level processing , which processes data synchronization in batches .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.546519
+----> FEATURES: (0.10082644628099173, 7.5845225575680217, 4.9744828885343768, 4, 3, 0, 17, 6)
+
+Sentence: 72
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the honeypot itself does not provide normal services ; therefore , all on-line attempts to access the honeypot can be regarded as attacks or attempted attacks .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.778352
+----> FEATURES: (0.21863799283154123, 22.859586586033878, 6.0822942656392138, 2, 2, 0, 27, 6)
+
+Sentence: 73
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+evaluations based on the psnr , mean ssim , bc and pratt-fom on synthetic images with various noise levels and visual inspections shows that the proposed frameworks provide better performance than the state-of-the-art methods .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.535081
+----> FEATURES: (0.26180257510729615, 6.9449200409666938, 5.021990336697697, 1, 1, 0, 35, 5)
+
+Sentence: 74
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+according to the above discussions , c and v type models are more prone to atherosclerosis as compared to the u type , however , the extend of the high ldl concentration regions are larger for the v type model , while the highest local maximum concentrations occur for the c type model .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.889205
+----> FEATURES: (0.3878292461398728, 21.37623817320403, 6.3383752746148918, 0, 2, 0, 54, 3)
+
+Sentence: 75
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+ca ( or sr ) tio3 : eu3+ , n+ ( li+ or na+ or k+ ) and catio3 : pr3+ , n+ or n3+ ( n=li or na or ag or k or gd or la ) powders prepared by combustion synthesis method and further heating to 1000c improved the crystallinity of the phosphor materials .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.91282
+----> FEATURES: (0.7268235977913398, 38.942050948918371, 4.8079495349217591, 3, 3, 0, 57, 5)
+
+Sentence: 76
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the cell volumes of catio3 : pr3+ , co-doped with mono-valent ions also follow the sequence as : catio3 : pr3+ , k+ > catio3 : pr3+ , ag+ > catio3 : pr3+ , na+ > catio3 : pr3+ , li+which is in accordance with the increase in size of co-doped ions .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.961533
+----> FEATURES: (0.36605229318474064, 66.004050547752882, 10.57063272149535, 1, 5, 0, 53, 3)
+
+Sentence: 77
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the second possible reason for a drop in performance is to do with the regions being morphologically grown so that they extend beyond the boundary of the image .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.504253
+----> FEATURES: (0.215674720094284, 9.0469718897090736, 5.2991016929203045, 1, 0, 0, 29, 3)
+
+Sentence: 78
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+it can be implemented easily by adding simple combination logic that exchanges the leftmost and the rightmost 24 bits and the conventional image signal processors can be used without modification .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.553323
+----> FEATURES: (0.23356732610082961, 3.0863749581716458, 4.6411579226977908, 2, 1, 1, 31, 5)
+
+Sentence: 79
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+conventional engineering education draws a neat separation between linear and non-linear methods for structural analysis .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.760642
+----> FEATURES: (0.21107266435986158, 8.7953210604515153, 5.3621179821635776, 2, 0, 0, 16, 5)
+
+Sentence: 80
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in addition to this modification , the remote activate switch ( ras ) based on rf tagging [ 27,28 ] is incorporated in all nodes to wake up the sleeping nodes remotely .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.817672
+----> FEATURES: (0.433392539964476, 21.204398443176235, 5.28626252812382, 2, 0, 0, 33, 6)
+
+Sentence: 81
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+mapping from xpath/xquery to relational queries methods rely on xml shredding as above and map xpath/xquery requests into relational queries .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.839747
+----> FEATURES: (0.24497991967871488, 47.515405672052452, 7.710250235612004, 0, 0, 0, 21, 6)
+
+Sentence: 82
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+however , there were no significant differences between groups in rula grand scores within each video scenario after the bonferroni correction was applied , as presented in table4 .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.883203
+----> FEATURES: (0.3706954760297097, 30.562178626118975, 4.4211504401842197, 0, 0, 0, 29, 3)
+
+Sentence: 83
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+this immediately follows from ( 4 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.979751
+----> FEATURES: (0.16486486486486487, 1.1649528235451707, 5.8381179482093026, 0, 0, 1, 8, 2)
+
+Sentence: 84
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+hris , including radiological photos , clinical images , etc. , are important data sources for diagnosis , consultation , and case discussion [ 14 ] .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.849821
+----> FEATURES: (0.3446327683615819, 26.713843671451333, 5.219671147877933, 1, 1, 1, 27, 2)
+
+Sentence: 85
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+as in the case of the teacher 's interface , the student 's interface is also provided with the ssl encrypting protocol to get a secure access to all the specific functionality that the students are supplied with .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.685374
+----> FEATURES: (0.27071005917159763, 37.364114440907905, 5.7318174880382093, 0, 0, 0, 39, 2)
+
+Sentence: 86
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+volkswagen 's head of logistics in bratislava , juraj jan , explains this sourcing arrangement as follows : logistics are essential in vehicle manufacturing .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.975954
+----> FEATURES: (0.15803108808290156, 5.058507862007863, 6.7898627359651327, 0, 0, 0, 25, 2)
+
+Sentence: 87
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the waveforms of the 12 in the two layers with 0 ply angle , layer 3 and layer 4 , are similar , with peak absolute values being at about 180 .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.909821
+----> FEATURES: (0.2558724832214765, 26.519021700619856, 4.692805576652141, 0, 0, 5, 32, 2)
+
+Sentence: 88
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+such a behavior can be due to different factors , so that some considerations need to be made .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.94157
+----> FEATURES: (0.1741198858230257, 2.8258075293163607, 5.6028673987066639, 0, 0, 0, 19, 6)
+
+Sentence: 89
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in the present study , the following classification algorithms were evaluated : k-nearest neighbour [ 22,23 ] ; support vector machines ( svm ) with linear kernel ( svml ) [ 24,25 ] ; support vectors machines with radial basis function ( rbf ) kernel [ 23,24 ] ; and random forest ( rf ) [ 26 ] .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.991409
+----> FEATURES: (0.3954924359370176, 13.5859365960989, 6.2949127752671812, 3, 1, 1, 59, 4)
+
+Sentence: 90
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+electrocardiogram qt interval correction biometrics identification systems classification
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.564121
+----> FEATURES: (0.25248344370860926, 43.429583326653173, 4.4169035218401431, 8, 5, 0, 8, 6)
+
+Sentence: 91
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+in either case , the sparse curve-skeletons will have regions that are already slowly varying on a scale related to the local thickness , and as such snacs will return a very similar representation for those regions .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.551956
+----> FEATURES: (0.29731925264013, 29.925057914142389, 5.744742426765896, 2, 1, 0, 38, 6)
+
+Sentence: 92
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+as detailed in section 2.2 , active contours are then considered to deform the initial circle towards lumen boundaries , for anatomical image of the sequence ( red circles in fig 1b ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.699935
+----> FEATURES: (0.23513215859030837, 24.250333833558781, 4.4839169792689786, 1, 1, 1, 34, 6)
+
+Sentence: 93
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+given that there were more errors of commission under wbv , one might expect that responses would be faster ( indicating a speed-accuracy trade-off ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.671637
+----> FEATURES: (0.3036984352773826, 75.215664156816217, 4.791112063142597, 0, 0, 0, 26, 3)
+
+Sentence: 94
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+an additional answer merging module combines and ranks the answers generated from the answer matching modules ( fig 1 ) .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.761913
+----> FEATURES: (0.3952483801295896, 3.9495706729605078, 5.8739672388430613, 0, 0, 1, 21, 2)
+
+Sentence: 95
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+vaapa can not only visualize the distribution of poly ( a ) sites and clusters of any given gene or a section of a chromosome in one condition , but also compare the difference of the distribution of poly ( a ) sites and clusters among different conditions if the user chooses more than one condition .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.513599
+----> FEATURES: (0.5265104808877928, 98.468044782062591, 5.1442019790877245, 0, 1, 0, 57, 2)
+
+Sentence: 96
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+the top degree spots are expected to increase the number of common affiliations for many users ; the higher the degree of a locale more user pairs will exhibit an increased number of common foci .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.626869
+----> FEATURES: (0.3065326633165829, 34.343621914019714, 5.4894666099097922, 0, 0, 0, 36, 2)
+
+Sentence: 97
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+henceforth , we use the term polygon to refer to either the input polygon q , or the cavities and protrusions of q ( which are denoted as p ) , the meaning being clear from the context .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.57483
+----> FEATURES: (0.2928, 52.906760875332758, 5.4170160934570299, 2, 0, 0, 39, 6)
+
+Sentence: 98
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+neurosciences neurology and nursing ranked 6th and 9th respectively when only articles published within the past 5 years were considered .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.917416
+----> FEATURES: (0.1829085457271364, 16.687203670716947, 4.7464372692069077, 0, 0, 1, 21, 3)
+
+Sentence: 99
+====> FALSE NEGATIVE <====
+----> SENTENCE:
+based on the position and direction of the host device , the image shown on screen alters to give the user a window into the panorama .
+----> PREDICTED: 0 ACTUAL: 1 WITH CONFIDENCE: 0.536632
+----> FEATURES: (0.0, 12.206236848383911, 4.9152863566359652, 0, 0, 0, 27, 4)
