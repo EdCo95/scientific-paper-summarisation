@@ -1,0 +1,6 @@
+Create csv data of the form:
+    sentence, sentence_number, is_highlight_statement
+
+Use word2vec model to calculate the average word vector for each sentence
+
+Train a classifier on this data and use the csv data as a training and test set
