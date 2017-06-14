@@ -2,8 +2,14 @@
 
 Have you ever had to do a literature review as part of a research project and thought "I wish there was a quicker way of doing this"? This code aims to create that quicker way by developing a supervised-learning based extractive summarisation system for the summarisation of scientific papers.
 
+For more information on the project, please see:
+
+Ed Collins, Isabelle Augenstein, Sebastian Riedel. [A Supervised Approach to Extractive Summarisation of Scientific Papers](https://arxiv.org/abs/1706.03946). To appear in Proceedings of CoNLL, July 2017.
+
+Ed Collins. A supervised approach to extractive summarisation of scientific papers. UCL MEng thesis, May 2017.
+
 ## Code Description
-The various code files and folders are described here. Note that the data used is not uploaded here but nonetheless the repository is still over 1GB in size. If this work is accepted at the ConLL Conference in May 2017 then a script to access the data will be uploaded.
+The various code files and folders are described here. Note that the data used is not uploaded here but nonetheless the repository is still over 1GB in size.
 
 * **Analysis** - A folder containing code used to analyse the generated summaries and create various pretty graphs. It is not essential to the functioning of the summarisers and will not work without the data.
 * **DataTools** - Contains files for manipulating and preprocessing the data. The most important file is `useful_functions.py` which contains many important functions used to run the system.
@@ -20,4 +26,4 @@ Before attempting to run this code you should setup a suitable virtualenv using 
 To then run this code you will need paper data in the following format: every paper is in a directory and is a `.txt` file, where the section headings of every section in the paper are surrounded on both sides by the symbol "@&#". You will also need to create a stopword list and list of permitted paper section titles and a word embedding model. Finally you will need to create dictionaries which keep bag of words representations of every paper for calculating features. Finally you will also need to update all the paths currently listed in the project so that they match your own. You will then need to update the loading functions in `useful_functions.py` to load all of these things by changing the paths to point at the correct locations.
 
 ## Other Notes
-If you have read or are reading the thesis corresponding to this code, then SAFNet = SummariserNet, SFNet = SummariserNetV2, SNet = LSTM, SAF+F Ens = EnsembleSummariser, S+F Ens = EnsembleV2Summariser.
+If you have read or are reading the MEng thesis or CoNLL paper corresponding to this code, then SAFNet = SummariserNet, SFNet = SummariserNetV2, SNet = LSTM, SAF+F Ens = EnsembleSummariser, S+F Ens = EnsembleV2Summariser.
