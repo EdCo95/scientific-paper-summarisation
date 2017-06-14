@@ -316,8 +316,6 @@ class AbstractNetPreprocessor(DataPreprocessor):
 
         r = Rouge()
 
-        pool = ThreadPool(2)
-
         # Iterate over every file in the paper directory
         for filename in os.listdir(PAPER_SOURCE):
 
