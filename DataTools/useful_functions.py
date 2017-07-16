@@ -539,6 +539,18 @@ def calculate_title_score(sentence, title):
 
     return score
 
+def calculate_bag_of_words(paper_string):
+    """
+    Calculates the bag of words representation of a paper and returns a defaultdict.
+    :param paper_string: the paper in string representation.
+    :return: the paper's bag of words representation as a defaultdict.
+    """
+    bow = defaultdict(int)
+    for word in paper_string.split():
+        bow[word] += 1
+
+    return bow
+
 
 def bag_of_words_score(sentence, paper_bag_of_words):
     """

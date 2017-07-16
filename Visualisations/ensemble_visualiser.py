@@ -15,11 +15,19 @@ from operator import itemgetter
 from sklearn import linear_model
 from Dev.Evaluation.rouge import Rouge
 
-NAME = "EnsembleVis"
+NAME = "EnsembleVisOurs"
 
 def heatmap(value):
     h = (1.0 - value) * 240
     return "hsla(" + str(h) + ", 100%, 50%, 0.5)"
+
+def heatmap_simple(value):
+    h = (1.0 - value) * 240
+    return "hsla(0, 100%, 50%, 0.5)"
+
+def opacitymap(value):
+    a = value
+    return "hsla(0, 100%, 50%, " + str(a) + ")"
 
 with open(BASE_DIR + "/Visualisations/base_html.txt", "rb") as f:
     html = f.readlines()
@@ -43,6 +51,8 @@ filename = "S1568494613002974.txt"
 
 filename = "S0003687013000562.txt"
 
+filename = "our_paper.txt"
+
 paper = useful_functions.read_in_paper(filename, sentences_as_lists=True, preserve_order=True)
 
 html.append("<h1>" + " ".join(paper["MAIN-TITLE"][0][0]) + "</h1>")
@@ -57,6 +67,10 @@ highlights = paper["HIGHLIGHTS"]
 print("Reading stuff...")
 bag_of_words = defaultdict(float)
 for key, val in paper.iteritems():
+
+    if not val:
+        continue
+
     sents = val[0]
     for sent in sents:
         for word in sent:
@@ -106,7 +120,7 @@ for sentence, _, prob, pos in sents_and_scores:
             p_open = True
 
         if prob > 0.5:
-            html.append("<span style=\"background-color:" + heatmap(prob) + "\">&nbsp" + " ".join(sentence) + " </span>")
+            html.append("<span style=\"background-color:" + heatmap_simple(prob) + "\">&nbsp" + " ".join(sentence) + " </span>")
         else:
             html.append(" ".join(sentence))
 

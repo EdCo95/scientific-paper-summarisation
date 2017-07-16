@@ -183,7 +183,9 @@ class EnsembleSummariser(Summariser):
 
         final_sents_probs = [x for x in reversed(sorted(final_sents_probs, key=itemgetter(2)))]
         final_sents_probs = sorted(final_sents_probs, key=itemgetter(-1))
-        return final_sents_probs
+
+        if visualise:
+            return final_sents_probs
 
         #summary = final_sents_probs[0:self.summary_length]
 
@@ -314,6 +316,11 @@ if __name__ == "__main__":
     # Paper Two: S0141938215300044.txt
     # Paper Three: S0142694X15000423.txt
     summ = EnsembleSummariser()
+
+    summ.summarise("our_paper.txt")
+
+    wait()
+
     #summ.summarise("S0142694X15000423.txt")
     #summ.summarise("S0142694X15000423.txt")
     #sys.exit()

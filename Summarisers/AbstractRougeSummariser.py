@@ -119,6 +119,11 @@ if __name__ == "__main__":
     # Paper Two: S0141938215300044.txt
     # Paper Three: S0142694X15000423.txt
     summ = AbstractRougeSummariser()
+
+    summ.summarise("our_paper.txt")
+
+    wait()
+
     #summ.summarise("S0142694X15000423.txt")
 
     count = 0

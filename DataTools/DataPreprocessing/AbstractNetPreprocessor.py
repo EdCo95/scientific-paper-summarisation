@@ -123,6 +123,20 @@ class AbstractNetPreprocessor(DataPreprocessor):
 
         prev_section = ""
 
+        try:
+            bow = self.paper_bags_of_words[filename]
+        except KeyError:
+            paper_str = useful_functions.read_in_paper(filename)
+            paper_str = " ".join([val for _, val in paper_str.iteritems()]).lower()
+            paper_bag_of_words = useful_functions.calculate_bag_of_words(paper_str)
+            self.paper_bags_of_words[filename] = paper_bag_of_words
+
+        try:
+            kf = self.keyphrases[filename]
+        except KeyError:
+            kfs = raw_paper["KEYPHRASES"]
+            self.keyphrases[filename] = kfs
+
         for sentence, section in sentences:
 
             sentence_vector = useful_functions.sentence2vec(sentence, self.word2vec)
