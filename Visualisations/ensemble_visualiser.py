@@ -15,8 +15,6 @@ from operator import itemgetter
 from sklearn import linear_model
 from Dev.Evaluation.rouge import Rouge
 
-NAME = "EnsembleVisOurs"
-
 def heatmap(value):
     h = (1.0 - value) * 240
     return "hsla(" + str(h) + ", 100%, 50%, 0.5)"
@@ -49,9 +47,16 @@ filename = "S1568494613002974.txt"
 
 #filename = "S1568494615007012.txt"
 
-filename = "S0003687013000562.txt"
+# Our paper - 1
+filename1 = "our_paper.txt"
 
-filename = "our_paper.txt"
+# Top ROUGE Score - 2
+filename2 = "S0003687013000562.txt"
+
+# Third ROUGE Score (second not good)  - 3
+filename = "S0003687013002081.txt"
+
+NAME = "3"
 
 paper = useful_functions.read_in_paper(filename, sentences_as_lists=True, preserve_order=True)
 
@@ -87,48 +92,85 @@ html.append("</p>")
 html.append("</div>")
 
 html.append("<div id=\"paper\" class=\"text\">")
-html.append("<h2>Full Paper</h2>")
+html.append("<h2>Generated Summary</h2>")
 html.append("<hr>")
 html.append("<br>")
 
 summ = EnsembleSummariser()
 sents_and_scores = summ.summarise(filename, visualise=True)
 
-p_open = False
+sorted_sents = sorted(sents_and_scores, key=itemgetter(2), reverse=True)
+summary = sorted_sents[:10]
+ordered_summary = sorted(summary, key=itemgetter(3))
 
-for sentence, _, prob, pos in sents_and_scores:
-
-    if len(sentence) < 3:
-        print(sentence)
-
-    if sentence[0] == "":
-        continue
+html.append("<p>")
+for sentence, _, prob, pos in ordered_summary:
 
     if sentence[0].lower() in SECTION_TITLES and sentence[0].isupper():
+        continue
 
-        if p_open:
-            html.append("</p>")
-            p_open = False
+    print(sentence)
+    print(prob)
+    print()
+    html.append(" ".join(sentence))
+    html.append("<br><br>")
 
-        html.append("<br><br>")
-        html.append("<h3>" + " ".join(sentence) + "</h3>")
+#wait()
 
-    else:
+html.append("</p>")
 
-        if not p_open:
-            html.append("<p>")
-            p_open = True
+html.append("<h2>Other Examples</h2>")
+html.append("<hr>")
+html.append("<br>")
+html.append("<a href=\"1_index.html\">Example One</a>")
+html.append("<br>")
+html.append("<a href=\"2_index.html\">Example Two</a>")
+html.append("<br>")
+html.append("<a href=\"3_index.html\">Example Three</a>")
+html.append("<br><br>")
 
-        if prob > 0.5:
-            html.append("<span style=\"background-color:" + heatmap_simple(prob) + "\">&nbsp" + " ".join(sentence) + " </span>")
+p_open = False
+full_paper = True
+
+if full_paper:
+
+    html.append("<h2>Full Paper</h2>")
+    html.append("<hr>")
+    #html.append("<br>")
+
+    for sentence, _, prob, pos in sents_and_scores:
+
+        if len(sentence) < 3:
+            print(sentence)
+
+        if sentence[0] == "":
+            continue
+
+        if sentence[0].lower() in SECTION_TITLES and sentence[0].isupper():
+
+            if p_open:
+                html.append("</p>")
+                p_open = False
+
+            html.append("<br><br>")
+            html.append("<h3>" + " ".join(sentence) + "</h3>")
+
         else:
-            html.append(" ".join(sentence))
 
-        html.append("<br><br>")
+            if not p_open:
+                html.append("<p>")
+                p_open = True
 
-if p_open:
-   html.append("</p>")
-   p_open = False
+            if prob > 0.5:
+                html.append("<span style=\"background-color:" + heatmap_simple(prob) + "\">&nbsp" + " ".join(sentence) + " </span>")
+            else:
+                html.append(" ".join(sentence))
+
+            html.append("<br><br>")
+
+    if p_open:
+       html.append("</p>")
+       p_open = False
 
 html.append("</div>")
 html.append("</body>")
