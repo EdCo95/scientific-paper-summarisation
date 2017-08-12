@@ -1,0 +1,46 @@
+main-title
+highlights
+introduction
+abstract
+method
+methods
+results
+discussion
+discussions
+conclusion
+conclusions
+acknowledgements
+acknowledgments
+references
+results and discussion
+related work
+experimental results
+acknowledgment
+acknowledgement
+literature review
+experiments
+background
+methodology
+conclusions and future work
+related works
+summary
+limitations
+procedure
+material and methods
+discussion and conclusion
+implementation
+evaluation
+performance evaluation
+experiments and results
+overview
+experimental design
+discussion and conclusions
+results and discussions
+motivation
+proposed method
+analysis
+future work
+results and analysis
+implementation details
+keyphrases
+keywords

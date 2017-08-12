@@ -154,7 +154,7 @@ if __name__ == '__main__':
         # Data is 3D - of form [sentence_vector, classification, abstract_vector]. We will ignore the abstract vector here.
         print("Loading Data...")
         t = time.time()
-        data = useful_functions.numpy_load(DATA_DIR)
+        data = useful_functions.load_cspubsumext()
         features_class = []
         pos_count = 0
         for item in data:

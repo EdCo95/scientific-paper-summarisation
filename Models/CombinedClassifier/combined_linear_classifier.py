@@ -160,7 +160,7 @@ with tf.Session() as sess:
 
     print("Loading Data...")
     t = time.time()
-    data = useful_functions.load_pickled_object(DATA_DIR)
+    data = useful_functions.load_cspubsumext()
     sentvec_abstracvec_features_class = []
     for item in data:
         sentence_vecs = item["sentence_vecs"]

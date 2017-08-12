@@ -22,6 +22,7 @@ import string
 import dill
 import pickle
 import time
+import ujson as json
 
 # =========================================
 
@@ -54,13 +55,16 @@ STOPWORD_SOURCE = BASE_DIR + "/Data/Utility_Data/common_words.txt"
 # Location of the Word2Vec model
 MODEL_SOURCE = BASE_DIR + "/Word2Vec/Word2Vec_Models/summarisation_100features_5minwords_20context"
 
-# Location to write the global filecounts of bag of words for each paper and total word count
+# Location to write the document word count - the count of how many different papers each word occurs in
 GLOBAL_WORDCOUNT_WRITE_LOC = BASE_DIR + "/Data/Utility_Data/Global_Counts/"
 
 # This may not be needed anymore
 DD_CLASSIFICATION_MODEL_LOC_VECS = BASE_DIR + "/Trained_Models/DoubleDataset/lr_c2_5_vector.pkl"
 DD_CLASSIFICATION_MODEL_LOC_FEATS = BASE_DIR + "/Trained_Models/DoubleDataset/lr_c2_5_feature.pkl"
 W2V_CLASSIFICATION_MODEL_LOC = BASE_DIR + "/Trained_Models/Word2Vec_Classifier/lr_highlights_only_c3_66.pkl"
+
+# Location to write the training data to
+TRAINING_DATA_WRITE_LOC = BASE_DIR + "/Data/Training_Data/"
 
 # Reads the stopwords as a set
 STOPWORDS = set(Reader().open_file(STOPWORD_SOURCE) + list(string.punctuation))
@@ -103,11 +107,14 @@ class Color:
 
 # ================ FUNCTIONS ================
 
-def wait():
+
+def wait(to_print=""):
     """
     A simple function which pauses execution flow, used for debugging.
     """
+    print(to_print)
     raw_input("Press enter to continue...")
+
 
 def printlist(list, wait_on_iteration=True):
     """
@@ -121,6 +128,7 @@ def printlist(list, wait_on_iteration=True):
         if wait_on_iteration:
             wait()
 
+
 def printdict(dictionary, wait_on_iteration=True):
     """
     Convenience function to print a dictionary.
@@ -132,6 +140,7 @@ def printdict(dictionary, wait_on_iteration=True):
         if wait_on_iteration:
             wait()
 
+
 def num2onehot(number, size):
     """
     Turns a number into a one-hot vector.
@@ -142,6 +151,7 @@ def num2onehot(number, size):
     num1h = [0 for _ in range(size)]
     num1h[number] = 1
     return num1h
+
 
 def weight_variable(shape):
     """
@@ -162,6 +172,7 @@ def bias_variable(shape):
     initial = tf.constant(0.1, shape=shape)
     return tf.Variable(initial)
 
+
 def conv2d(x, W):
     """
     TensorFlow operation used for convolution.
@@ -170,6 +181,7 @@ def conv2d(x, W):
     :return: the TensorFlow convolution operation.
     """
     return tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME')
+
 
 def max_pool_2x2(x):
     """
@@ -186,7 +198,8 @@ def paper_tokenize(text, sentences_as_lists=False, preserve_order=False):
     Takes a paper with the sections delineated by '@&#' and splits them into a dictionary where the key is the section
     and the value is the text under that section. This could probably be a bit more efficient but it works well enough.
     :param text: the text of the paper to split
-    :param sentences_as_lists: if true, returns the text of each sentence as a list of sentences.
+    :param sentences_as_lists: if true, returns the text of each section as a list of sentences rather than a single
+                               string.
     :param preserve_order: if true, tracks the order in which the paper sections occured.
     :returns: a dictionary of the form (section: section_text)
     """
@@ -364,7 +377,7 @@ def loading_bar(loading_section_size, count, total_number):
     sys.stdout.flush()
 
 
-def count_words_across_all_papers():
+def count_words_across_all_papers(write_location=GLOBAL_WORDCOUNT_WRITE_LOC):
     """
     Counts how many different papers each words occurs in.
     :return: nothing, but writes the wordcount dictionary to the disk.
@@ -401,15 +414,15 @@ def count_words_across_all_papers():
                 global_word_count[word] += 1
 
             # Add to the total counts dict
-            for word in paper_words:
-                global_total_word_count[word] += 1
+            #for word in paper_words:
+            #    global_total_word_count[word] += 1
 
     # Write the wordcount
-    with open(GLOBAL_WORDCOUNT_WRITE_LOC + "global_wordcount.pkl", "wb") as f:
+    with open(write_location + "document_wordcount.pkl", "wb") as f:
         pickle.dump(global_word_count, f)
 
-    with open(GLOBAL_WORDCOUNT_WRITE_LOC + "global_total_wordcount.pkl", "wb") as f:
-        pickle.dump(global_total_word_count, f)
+    #with open(GLOBAL_WORDCOUNT_WRITE_LOC + "global_total_wordcount.pkl", "wb") as f:
+    #    pickle.dump(global_total_word_count, f)
 
 
 def load_global_word_count():
@@ -539,6 +552,7 @@ def calculate_title_score(sentence, title):
 
     return score
 
+
 def calculate_bag_of_words(paper_string):
     """
     Calculates the bag of words representation of a paper and returns a defaultdict.
@@ -636,31 +650,46 @@ def calculate_document_tf_idf(sentence, paper_bag_of_words):
         return sent_tf_idf / length
 
 
-def compute_sentence_features(sentence, paper_dicts, global_dicts):
+def calculate_features(sentence, bag_of_words, document_wordcount, keyphrases, abstract, title, section):
     """
-    Computes sentence features: tf-idf, number of keyphrases in sentence, number of words from the title in the
-    sentence, bag of words score of the sentence, the sentence length and the section of the paper the sentence came
-    from.
-    :param sentence: the sentence to compute features for in the form of a list words.
-    :param paper_dicts: dictionaries containing metadata for the individual paper.
-    :param global_dicts: dictionaries containing metadata for the whole corpus of papers.
-    :return: a tuple of the computed features for the sentence.
+    Calculates the features for a sentence.
+    :param sentence: the sentence to calculate features for, as a list of words.
+    :param bag_of_words: a dictionary bag of words representation for the paper, keys are words vals are counts.
+    :param document_wordcount: count of how many different papers each word occurs in.
+    :param keyphrases: the keyphrases of the paper
+    :param shorter: returns a shorter list of features
+    :param abstract: the abstract of the paper as a list of strings
+    :param title: the title of the paper as a string
+    :param section: the section of the paper the sentence came from
+    :return: a vector of features for the sentence.
     """
-    keyphrases = paper_dicts[0]
-    vocab = paper_dicts[1]
-    paper_bag_of_words = paper_dicts[2]
-    title_words = paper_dicts[3]
-
-    global_count_of_papers_words_occur_in = global_dicts[0]
-    global_word_count = global_dicts[1]
-
-    tf_idf = calculate_tf_idf(sentence, global_count_of_papers_words_occur_in, paper_bag_of_words)
+    # Calculate features
+    abstract_rouge_score = compute_rouge_abstract_score(sentence, abstract)
+    tf_idf = calculate_tf_idf(sentence, document_wordcount, bag_of_words)
+    document_tf_idf = calculate_document_tf_idf(sentence, bag_of_words)
     keyphrase_score = calculate_keyphrase_score(sentence, keyphrases)
-    title_score = calculate_title_score(sentence, title_words)
-    bow_score = bag_of_words_score(sentence, paper_bag_of_words)
-    sentence_length = len(sentence)
+    title_score = calculate_title_score(sentence, set([x for x in title if x not in STOPWORDS]))
+    sent_len = len(sentence)
+    numeric_count = len([word for word in sentence if is_number(word)])
+    sec = -1
 
-    return tf_idf, keyphrase_score, title_score, bow_score, sentence_length
+    if "HIGHLIGHT" in section:
+        sec = HIGHLIGHT
+    elif "ABSTRACT" in section:
+        sec = ABSTRACT
+    elif "INTRODUCTION" in section:
+        sec = INTRODUCTION
+    elif "RESULT" in section or "DISCUSSION" in section:
+        sec = RESULT_DISCUSSION
+    elif "CONCLUSION" in section:
+        sec = CONCLUSION
+    elif "METHOD" in section:
+        sec = METHOD
+    else:
+        sec = OTHER
+
+    return abstract_rouge_score, tf_idf, document_tf_idf, keyphrase_score, title_score, numeric_count, \
+               sent_len, sec
 
 
 def paper2vec(paper, model, metadata):
@@ -721,13 +750,6 @@ def sentence2vec(sentence, model=WORD2VEC, stopwords=STOPWORDS, metadata=None, s
     average = np.zeros((model_shape[1]), dtype="float32")
     total_word_count = 0
 
-    # Compute sentence features if directed to
-    if not wordvecs_only:
-        global_dicts = metadata[-2], metadata[-1]
-        paper_dicts = metadata[:-2]
-        tf_idf, keyphrase_score, title_score, bow_score, sentence_length = \
-            compute_sentence_features(sentence, paper_dicts, global_dicts)
-
     for word in sentence:
 
         if word in stopwords:
@@ -743,17 +765,20 @@ def sentence2vec(sentence, model=WORD2VEC, stopwords=STOPWORDS, metadata=None, s
 
     average = np.divide(average, total_word_count)
 
-    if not wordvecs_only:
-        sentence_vec = np.append(average, tf_idf)
-        sentence_vec = np.append(sentence_vec, keyphrase_score)
-        sentence_vec = np.append(sentence_vec, title_score)
-        sentence_vec = np.append(sentence_vec, bow_score)
-        sentence_vec = np.append(sentence_vec, sentence_length)
-        sentence_vec = np.append(sentence_vec, section)
-    else:
-        sentence_vec = average
+    sentence_vec = average
 
     return sentence_vec
+
+
+def abstract2vector(abstract):
+    """
+    Changes the abstract into a single averaged vector.
+    :param abstract: the abstract to turn into a vector
+    :return: a single vector representing the abstract
+    """
+    abstract_vecs = [sentence2vec(x) for x in abstract]
+    avg = np.mean(abstract_vecs, axis=0)
+    return avg
 
 
 def read_paper_as_vectors(filename, model):
@@ -901,10 +926,49 @@ def write_gold(location, gold_as_list, filename):
             f.write(sentence)
             f.write("\n")
 
+
+def load_cspubsumext():
+    """
+    Loads cspubsumext as created by DataTools/DataPreprocessing/cspubsumext_creator.py. Assumes that the papers are
+    stored in the location specified in the TRAINING_DATA_WRITE_LOC variable from this file (useful_functions.py).
+    :return: a list of the loaded dictionaries, one for each paper.
+    """
+    print("----> Loading JSON file...")
+    st = time.time()
+    json_file = json.load(open(TRAINING_DATA_WRITE_LOC + "all_data.json", "rb"))
+    print("----> Done, took {} seconds.".format(time.time() - st))
+    print("----> Converting number lists to numpy arrays...")
+    i = 0
+    cspubsumext = []
+    for data_item in json_file:
+
+        new_data_item = {}
+
+        for key, val in data_item.iteritems():
+
+            if key == "abstract_vec":
+                val = np.array(val)
+            elif key == "sentence_vecs":
+                new_sent_vecs = []
+                for vec, sec, y in val:
+                    new_sent_vecs.append((np.array(vec), sec, y))
+                val = new_sent_vecs
+
+            new_data_item[key] = val
+
+        cspubsumext.append(new_data_item)
+
+        print("Processed {}".format(i), end="\r")
+        i += 1
+        sys.stdout.flush()
+    print("\n----> Done.")
+    return cspubsumext
+
+
 # ===========================================
 
 if __name__ == '__main__':
     t = time.time()
-    nst = read_definite_non_summary_section_titles()
+    cspubsumext = load_cspubsumext()
     print(time.time() - t)
-    print(nst)
+    print(cspubsumext[0])

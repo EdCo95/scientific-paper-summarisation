@@ -57,7 +57,7 @@ def get_data():
     print("Loading Data...")
     t = time.time()
 
-    data = useful_functions.load_pickled_object(DATA_DIR)
+    data = useful_functions.load_cspubsumext()
     sents = []
     labs = []
     for item in data:

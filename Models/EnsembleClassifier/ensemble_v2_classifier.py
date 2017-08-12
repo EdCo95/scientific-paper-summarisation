@@ -43,7 +43,7 @@ def get_data():
     t = time.time()
 
     # The data is a pickled object
-    data = useful_functions.load_pickled_object(DATA_DIR)
+    data = useful_functions.load_cspubsumext()
 
     # Data list
     sents_absvec_feats_class = []

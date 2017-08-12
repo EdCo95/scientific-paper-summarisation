@@ -1,4 +1,3 @@
-Data
 Deprecated
 *.pyc
 .DS_Store
@@ -15,3 +14,12 @@ XML_Papers
 Trained_Models
 HTML
 Visualisations/Examples
+api_key.txt
+Generated_Data
+Papers
+Global_Counts
+definite_non_summary_titles.txt
+sentence_stoppers.txt
+Training_Data
+csv2listedcsv.py
+highlight_word2vecs.py

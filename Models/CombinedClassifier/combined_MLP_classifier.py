@@ -64,7 +64,7 @@ DISPLAY_EVERY = 300
 MAX_STEPS_SINCE_SAVE = 15
 
 # True if the model is already trained
-PRETRAINED = False
+PRETRAINED = True
 
 # The name of this model
 MODEL_NAME = "CombinedMLP"
@@ -189,7 +189,7 @@ if __name__ == '__main__':
 
         print("Loading Data...")
         t = time.time()
-        data = useful_functions.load_pickled_object(DATA_DIR)
+        data = useful_functions.load_cspubsumext()
         sentvec_abstracvec_features_class = []
         for item in data:
             sentence_vecs = item["sentence_vecs"]

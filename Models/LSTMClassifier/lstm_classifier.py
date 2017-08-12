@@ -95,7 +95,7 @@ SAVE_DIR = BASE_DIR + "/Trained_Models/" + MODEL_NAME + "/" + str(HIDDEN_LAYER_W
 def get_data():
     print("Loading Data...")
     t = time.time()
-    data = useful_functions.load_pickled_object(DATA_DIR)
+    data = useful_functions.load_cspubsumext()
     sentences_class = []
     for item in data:
         sentences = item["sentences"]

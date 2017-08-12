@@ -12,7 +12,8 @@ Ed Collins. A supervised approach to extractive summarisation of scientific pape
 The various code files and folders are described here. Note that the data used is not uploaded here but nonetheless the repository is still over 1GB in size.
 
 * **Analysis** - A folder containing code used to analyse the generated summaries and create various pretty graphs. It is not essential to the functioning of the summarisers and will not work without the data.
-* **DataTools** - Contains files for manipulating and preprocessing the data. The most important file is `useful_functions.py` which contains many important functions used to run the system.
+* **Data** - Where all data should be stored. In the folder `Utility_Data` are things such as stopword lists, permitted titles and a count of how many different papers each word occurs in (used for TF-IDF; calculated automatically by `DataTools/DataPreprocessing/cspubsumext_creator.py`.
+* **DataTools** - Contains files for manipulating and preprocessing the data. There are two particularly important files in this folder. `useful_functions.py` contains many important functions used to run the system. `DataPreprocessing/cspubsumext_creator.py` will take the parsed papers which are produced by the code in `DataDownloader` and preprocess them into the form used to train the models in the research automatically.
 * **Evaluation** - Contains code to evaluate summaries and calculate the ROUGE-L metric, with thanks to [hapribot](https://github.com/harpribot/nlp-metrics/blob/master/rouge/rouge.py).
 * **Models** - Contains the code which constructs and trains each of the supervised learning modules that form the core of the summarisation system. All written in TensorFlow.
 * **Summarisers** - Contains the code which takes the trained models and uses them to actually create summaries of papers.
@@ -23,7 +24,15 @@ The various code files and folders are described here. Note that the data used i
 ## Running the Code
 Before attempting to run this code you should setup a suitable virtualenv using Python 2.7. Install all of the requirements listed in `requirements.txt` with `pip install -r requirements.txt`.
 
-To then run this code you will need paper data in the following format: every paper is in a directory and is a `.txt` file, where the section headings of every section in the paper are surrounded on both sides by the symbol "@&#". You will also need to create a stopword list and list of permitted paper section titles and a word embedding model. Finally you will need to create dictionaries which keep bag of words representations of every paper for calculating features. Finally you will also need to update all the paths currently listed in the project so that they match your own. You will then need to update the loading functions in `useful_functions.py` to load all of these things by changing the paths to point at the correct locations.
+To download the dataset and preprocess it into the form used to train the models in the paper, first run `DataDownloader/acquire_data.py`. This will download all of the papers and parse them into the form used - with sections separated by a special symbol - "@&#" - so that the papers can be read as strings then split into sections and titles by splitting on this symbol.
+
+To turn these downloaded papers into training data, run `DataTools/DataPreprocessing/cspubsumext_creator.py`. This will take a while to run depending on your machine and number of cores (~2 hours on late 2016 MacBook Pro with dual core i7) but will handle creating all of the necessary files to train models. These are stored by default in `Data/Training_Data/`, with there being an individual JSON file for each paper and a single JSON file called `all_data.json` which is a list of all of the individual items of training data. This code now uses the ultra-fast uJSON library which reads the data much faster than the previous version which used pickle.
+
+All of the models and summarisers should then be usable.
+
+Be sure to check that all of the paths are correctly set! These are in `DataDownloader/acquire_data.py` for downloading papers, and in `DataTools/useful_functions.py` otherwise.
+
+**NOTE**: The code in `DataTools/DataPreprocessing/AbstractNetPreprocessor.py` is still unpleasently inefficient and is still currently used in the summarisers themselves. The next code update will fix this and streamline the process of running the trained summarisers.
 
 ## Other Notes
 If you have read or are reading the MEng thesis or CoNLL paper corresponding to this code, then SAFNet = SummariserNet, SFNet = SummariserNetV2, SNet = LSTM, SAF+F Ens = EnsembleSummariser, S+F Ens = EnsembleV2Summariser.

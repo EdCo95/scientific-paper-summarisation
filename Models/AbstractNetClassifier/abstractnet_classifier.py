@@ -190,7 +190,7 @@ with tf.Session() as sess:
 
     print("Loading Data...")
     t = time.time()
-    data = useful_functions.load_pickled_object(DATA_DIR)
+    data = useful_functions.load_cspubsumext()
     sentence_class_abstract = []
     for item in data:
         sentence_vecs = item["sentence_vecs"]
