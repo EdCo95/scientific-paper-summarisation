@@ -14,8 +14,8 @@
 #    }
 #
 # FINDING THE TRAINING SENTENCES:
-# ----> There are 20 summary sentences in each paper, not including the highlights. These are found by computing ROUGE-L
-#       between each sentence and the highlights and taking the sentences with the top 20 scores.
+# ----> There are 20 summary sentences in each paper, including the highlights. These are found by computing ROUGE-L
+#       between each sentence and the highlights and taking the sentences with the top scores.
 # ----> There are an equal number of negative sentences to positive ones. These are found by sorting the sentences by
 #       their ROUGE-L score into ascending order, and taking the same number of negative examples as there are positive
 #       examples from the sentences with the lowest ROUGE-L scores.
@@ -26,6 +26,7 @@
 # ----> The items required to calculate features are:
 #           => The sentence to calculate features for
 #           => Bag of words representation of the paper in which the sentence occurs
+#           => Count of how many different papers each word occurs in (for TF-IDF)
 #           => Keyphrases of the paper in which the sentence occurs
 #           => Abstract of the paper in which the sentence occurs
 #           => Title of the paper in which the sentence occurs
@@ -55,10 +56,10 @@
 # (15) Write the dictionary to disk.
 #
 # NOTES:
-# Original training data had 9879 items, this will produce list with 10024 items - the original should have had 10024
-# as well but due to a well concealed bug only saved 9879 of them. This should not matter for comparision to our models
-# as models should be compared on CSPUBSUM TEST which is 150 specified papers. The original training data is available
-# on request if needed.
+# Original training data had 9879 items, this code will a produce list with 10024 items - the original should have had
+# 10024 as well but due to a well concealed bug only saved 9879 of them. This should not matter for comparision to our
+# models as models should be compared on CSPUBSUM TEST which is 150 specified papers. The original training data is
+# available on request if needed.
 
 # ======== IMPORT STATEMENTS ========
 
@@ -101,6 +102,7 @@ DEBUG = False
 # =============================
 
 # ======== FUNCTIONS ========
+
 
 def process_paper(filename):
     """
