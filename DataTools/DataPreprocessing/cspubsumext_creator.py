@@ -90,15 +90,6 @@ rouge = Rouge()
 # The number of summary sentences to find in each paper
 num_summary = 20
 
-# True if the process_paper function below has already been run on every paper to turn it into a pickle file
-PAPERS_PICKLED = True
-
-# True if papers have been turned into JSON format
-PAPERS_IN_JSON = False
-
-# For debugging purposes
-DEBUG = False
-
 # =============================
 
 # ======== FUNCTIONS ========
