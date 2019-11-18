@@ -65,7 +65,7 @@ pyOpenSSL==0.13.1
 pyparsing==2.0.1
 python-dateutil==1.5
 pytz==2013.7
-requests==2.12.4
+requests==2.20.0
 scikit-learn==0.18.1
 scipy==0.18.1
 singledispatch==3.4.0.3
