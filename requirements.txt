@@ -6,7 +6,7 @@ bonjour-py==0.3
 boto==2.45.0
 breadability==0.1.20
 bz2file==0.98
-certifi==2016.9.26
+certifi==2022.12.7
 chardet==3.0.3
 Cython==0.25.2
 dill==0.2.6
